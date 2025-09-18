@@ -1,6 +1,22 @@
 # 🛒 API AV2 - Guilherme Ruiz
 
-Bem-vindo à API AV2 desenvolvida por Guilherme Ruiz! Este projeto é uma API RESTful para gerenciamento de usuários, produtos e lojas, construída com Node.js, Express e Prisma ORM.
+Bem-vindo à API AV2 desenvolvida por Guilherme Ruiz! Este projeto é uma API REST para gerenciamento de usuários, produtos e lojas, construída com Node.js, Express e Prisma ORM.
+
+## O que é REST?
+
+REST é a sigla para Representational State Transfer (Transferência de Estado Representacional). Trata-se de um estilo arquitetónico para construir sistemas e APIs baseados na web, que define um conjunto de diretrizes para a interação entre cliente e servidor, permitindo a comunicação de forma eficiente, escalável e sem estado
+
+### Principais Características:
+- Cliente-Servidor: O cliente e o servidor são separados, permitindo que cada um evolua independentemente. 
+- Sem Estado (Stateless): Cada solicitação do cliente é tratada de forma independente, sem que o servidor mantenha informações de estado da sessão entre solicitações. 
+- Interface Uniforme: Fornece uma forma padronizada para a transferência de informações, facilitando a comunicação entre diferentes componentes. 
+- Cache: Os dados podem ser armazenados em cache para melhorar o desempenho e reduzir a necessidade de interações. 
+- Sistema em Camadas: Permite a intermediação de interações entre cliente e servidor através de níveis de hierarquia. 
+
+### Como funciona nas APIs?
+- As APIs RESTful utilizam métodos HTTP (como GET, POST, PUT, DELETE) para executar operações (CRUD: Criar, Ler, Atualizar, Apagar) em recursos. 
+- Comunicação via JSON ou XML para a transferência de dados em um formato padronizado. 
+- Os recursos são expostos através de URLs, e o cliente pode descobrir outros identificadores através de links de hipermídia nas respostas do servidor. 
 
 ## 🚀 Tecnologias Utilizadas
 - Node.js
@@ -44,6 +60,10 @@ Bem-vindo à API AV2 desenvolvida por Guilherme Ruiz! Este projeto é uma API RE
    ```
 
    O servidor estará disponível em `http://localhost:3000`.
+
+## Deploy da API:
+  ### Para você testar a api pode acessar a url:
+  https://produtividade-3bimestre.onrender.com/
 
 ## 📚 Endpoints Disponíveis
 
